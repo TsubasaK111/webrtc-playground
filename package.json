@@ -1,0 +1,9 @@
+{
+  "name": "webrtc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mkaemmerer/webrtc.git",
+  "author": "Matt Kaemmerer <matthew.kaemmerer@gmail.com>",
+  "license": "BSD",
+  "private": true
+}
