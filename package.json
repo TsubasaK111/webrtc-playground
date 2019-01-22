@@ -7,10 +7,15 @@
   "license": "BSD",
   "private": true,
   "scripts": {
-    "postinstall": "cp node_modules/webrtc-adapter/out/adapter.js ."
+    "postinstall": "cp node_modules/webrtc-adapter/out/adapter.js ./client",
+    "server:start": "node server/chatserver.js",
+    "client:start": "parcel client/index.html"
   },
   "dependencies": {
     "webrtc-adapter": "^7.2.0",
     "websocket": "^1.0.28"
+  },
+  "devDependencies": {
+    "parcel": "^1.11.0"
   }
 }
