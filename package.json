@@ -9,7 +9,8 @@
   "scripts": {
     "postinstall": "cp node_modules/webrtc-adapter/out/adapter.js ./client",
     "server:start": "node server/chatserver.js",
-    "client:start": "parcel client/index.html"
+    "client:start": "parcel client/index.html",
+    "start": "yarn server:start"
   },
   "dependencies": {
     "webrtc-adapter": "^7.2.0",

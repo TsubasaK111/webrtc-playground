@@ -13,7 +13,7 @@
 
 // Get our hostname
 
-var myHostname = window.location.hostname;
+var myHostname = 'https://morning-castle-56594.herokuapp.com/';//window.location.hostname;
 console.log("Hostname: " + myHostname);
 
 // WebSocket chat/signaling channel variables.
