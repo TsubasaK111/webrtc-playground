@@ -5,5 +5,12 @@
   "repository": "https://github.com/mkaemmerer/webrtc.git",
   "author": "Matt Kaemmerer <matthew.kaemmerer@gmail.com>",
   "license": "BSD",
-  "private": true
+  "private": true,
+  "scripts": {
+    "postinstall": "cp node_modules/webrtc-adapter/out/adapter.js ."
+  },
+  "dependencies": {
+    "webrtc-adapter": "^7.2.0",
+    "websocket": "^1.0.28"
+  }
 }
